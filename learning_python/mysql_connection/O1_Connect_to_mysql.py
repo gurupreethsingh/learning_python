@@ -10,6 +10,6 @@ print("***************************\nConnecting to mysql from python.\n**********
 myconn = sql.connect(host = "localhost" , user = "root" , passwd = "root")
 
 if(myconn):
-    print("Connection successfull")
+    print("Connection to mysql databaes from python successfull")
 else:
     print("Connection unsuccessfull")
